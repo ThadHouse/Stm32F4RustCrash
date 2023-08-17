@@ -1,5 +1,5 @@
 [target.thumbv7em-none-eabihf]
-runner = 'probe-run --chip STM32F405RGTx'
+runner = 'probe-run --chip STM32F405RGTx -vv'
 rustflags = [
   # `flip-link` moves stack at the end of flash
   "-C", "linker=flip-link",
